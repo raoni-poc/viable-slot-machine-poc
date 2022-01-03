@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.to_roll {
+    animation: toRoll 5s;
+}
+
+img {
+
+}
+
+@keyframes toRoll {
+    to {
+        transform: translateY(0);
+    }
+    from {
+        transform: translateY(calc(100vw - 1050px));
+    }
+}
